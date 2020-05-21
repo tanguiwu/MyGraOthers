@@ -1,0 +1,43 @@
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab_bottom_layout_radioGroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="#00000000"
+    android:checkedButton="@+id/tab_main_service"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/tab_main_home"
+        style="@style/tab_main_style"
+        android:drawableTop="@drawable/app_main_home"
+        android:text="主页" />
+
+    <!--<RadioButton
+        android:id="@+id/tab_main_class"
+        style="@style/tab_main_style"
+        android:drawableTop="@drawable/app_main_class"
+        android:text="@string/phone_main_tab_class" />-->
+
+    <RadioButton
+        android:id="@+id/tab_main_tool_space"
+        style="@style/tab_main_style"
+        android:enabled="false"
+        android:gravity="center"
+        android:text=""
+        android:visibility="invisible" />
+
+   <!-- <RadioButton
+        android:id="@+id/tab_main_more"
+        style="@style/tab_main_style"
+        android:drawableTop="@drawable/app_main_discovery"
+        android:text="@string/phone_main_tab_more" />-->
+
+    <RadioButton
+        android:id="@+id/tab_main_user"
+        style="@style/tab_main_style"
+        android:drawableTop="@drawable/app_main_mypage"
+        android:text="我的" />
+
+</RadioGroup>
